@@ -1,0 +1,47 @@
+## COMPLETO
+npm i -D @typescript-eslint/eslint-plugin
+@typescript-eslint/parser
+@vue/eslint-config-typescript
+eslint
+eslint-config-prettier
+eslint-plugin-prettier
+eslint-plugin-vue
+prettier
+vue-eslint-parser
+eslint-plugin-vuetify
+@types/node
+@types/webfontloader
+
+## Corrigido para Create Vuetify
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-vuetify prettier vue-eslint-parser 
+
+extends: [
+    'plugin:vue/vue3-essential',
+    'eslint:recommended',
+    '@vue/typescript/recommended',
+    'plugin:prettier/recommended',
+    'plugin:vuetify/base'
+  ]
+  
+  
+
+"editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+
+
+// package.json
+"scripts" {
+"lint": "eslint --ext .ts,.js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
+	}
