@@ -1,20 +1,11 @@
+<script lang="ts" setup></script>
 <template>
-  <v-container class="d-flex justify-center fill-height">
-    <v-responsive
-      max-width="460"
-      class="d-flex align-center text-center fill-height"
-    >
-      <v-img cover src="@/assets/logo.svg" />
-
-      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-
+  <v-container class="fill-height">
+    <v-responsive class="text-center">
+      <v-img height="300" src="@/assets/logo.svg" />
       <h1 class="text-h2 font-weight-bold">Vuetify</h1>
-
-      <div class="py-14" />
+      <div class="text-body-2 font-weight-light mb-n1">Version 3</div>
     </v-responsive>
   </v-container>
 </template>
 
-<script lang="ts" setup>
-//
-</script>
