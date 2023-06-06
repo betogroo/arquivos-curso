@@ -1,0 +1,10 @@
+[user]
+	name = Luiz Humberto
+	email = luizhumberto@gmail.com
+[core]
+	editor = code --wait
+[alias]
+	s = !git status -s
+	l = !git log -2 --pretty=format:'%C(yellow)%h %C(red)%d%C(white)%s - %C(cyan) %cn'
+	c = !git add . && git commit -m
+	lg = !git log --all --decorate --oneline --graph
