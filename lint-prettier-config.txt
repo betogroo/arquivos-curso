@@ -13,7 +13,7 @@ eslint-plugin-vuetify
 @types/webfontloader
 
 ## Corrigido para Create Vuetify
-npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-vuetify prettier vue-eslint-parser @vue/eslint-config-typescript
+npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-eslint prettier eslint-plugin-prettier eslint-plugin-vuetify prettier vue-eslint-parser @vue/eslint-config-typescript
 
 extends: [
     'plugin:vue/vue3-essential',
