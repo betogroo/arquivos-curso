@@ -14,8 +14,32 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
-    // override/add rules settings here, such as:
-    // 'vue/no-unused-vars': 'error'
+   'vue/max-attributes-per-line': [
+      'error',
+      {
+        singleline: {
+          max: 1
+        },
+        multiline: {
+          max: 1
+        }
+      }
+    ],
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script[setup]', 'template', 'style']
+      }
+    ],
+    'vue/component-name-in-template-casing': [
+      'error',
+      'PascalCase',
+      {
+        registeredComponentsOnly: true,
+        ignores: [],
+        globals: ['RouterView', 'RouterLink']
+      }
+    ]
   },
   settings: {
     'import/resolver': {
