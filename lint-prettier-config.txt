@@ -15,6 +15,12 @@ eslint-plugin-vuetify
 ## Corrigido para Create Vuetify
 npm i -D prettier eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-vuetify vue-eslint-parser @vue/eslint-config-typescript
 
+Com Prettier 2
+npm i -D prettier@2 eslint-config-prettier@8 eslint-plugin-prettier@4 
+npm i -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser  eslint-plugin-vuetify vue-eslint-parser @vue/eslint-config-typescript
+
+
+
 
 extends: [
     'plugin:vue/vue3-essential',
